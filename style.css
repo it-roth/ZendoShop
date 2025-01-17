@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 11;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.navbar .container .navbar-collapse{
+   margin-left: 150px;
+   & .navbar-nav .nav-link{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+   }
+}
+.slide .carousel-inner .carousel-item{
+    height: 500px;
+    & img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.box-card{
+    margin-top: 50px;
+}
+.box-card h2{
+    position: relative;
+}
+
+.box-card .card .image{
+    overflow: hidden;
+    
+}
+.box-card .card .image img{
+    transition:all ease-in-out 0.3s;
+}
+.box-card .card .image:hover img{
+    transform: scale(1.05);
+    
+}
+a{
+    text-decoration: none ;
+}
