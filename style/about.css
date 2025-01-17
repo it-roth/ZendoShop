@@ -1,0 +1,61 @@
+main {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+}
+
+.about-hero {
+    background: url('https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.mission {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.mission img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.values {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.values .value-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.team {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.team .team-member {
+    text-align: center;
+}
+
+.team .team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.team h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
